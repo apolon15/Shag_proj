@@ -1,12 +1,44 @@
 header, table {
     border: black 1px solid;
 }
-h1{
+
+h1 {
     text-align: center;
+    color: white;
 }
+
 table {
     margin: 0 auto;
 }
-td{
+
+td {
     border-collapse: collapse;
+}
+
+body {
+    /*background: url("../images/Губы.jpg");*/
+    /*background-repeat:no-repeat;*/
+    /*background-position: center center;*/
+    /*background-size:cover;*/
+    box-shadow: inset 20px 100px 1200px 200px #500038;
+    height: 100vh;
+}
+
+div.lips_div {
+    background-image: url("../images/Губы.jpg");
+    position: relative;
+    top: 80px;
+    left: 380px;
+    border: #500038 4px solid;
+    width: 720px;
+    height: 360px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+img {
+    width: 680px;
+    height: auto;
 }
